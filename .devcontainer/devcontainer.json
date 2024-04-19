@@ -21,7 +21,7 @@
 						"trustServerCertificate": true
 					}
 				],
-				// "sqlDatabaseProjects.dotnetSDK Location": "/usr/share/dotnet/sdk/"
+				"sqlDatabaseProjects.dotnetSDK Location": "/usr/share/dotnet/sdk/"
 			},
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [

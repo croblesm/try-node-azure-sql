@@ -17,9 +17,12 @@
             }
         },
         {
-            "label": "Trust .NET HTTPS certificate",
+            "label": "Build SQL Database project",
             "type": "shell",
-            "command": "dotnet dev-certs https --trust"
-        }
+            "command": "dotnet build",
+            "options": {
+                "cwd": "${workspaceFolder}/database/Library"
+            }
+        },
     ]
 }
