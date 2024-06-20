@@ -14,3 +14,6 @@ unzip sqlpackage.zip -d /opt/sqlpackage
 rm sqlpackage.zip
 chmod a+x /opt/sqlpackage/sqlpackage
 echo "Sqlpackage installed."
+
+echo "Installing SQL Server driver for Node.js..."
+npm install -g mssql
