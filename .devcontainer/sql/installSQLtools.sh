@@ -17,3 +17,4 @@ echo "Sqlpackage installed."
 
 echo "Installing SQL Server driver for Node.js..."
 npm install -g mssql
+echo "SQL Server driver for Node.js installed."
